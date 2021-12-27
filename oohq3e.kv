@@ -1,0 +1,39 @@
+<Manager>:
+    MenuScreen:
+    GameScreen:
+<MenuScreen>:
+    name:"Menu"
+    inputid: input
+    FloatLayout:
+        Label:
+            pos_hint: {"center_x":.5, "center_y":.95}
+            text: "Memory Game"
+            font_size: 65
+        Label:
+            pos_hint: {"center_x":.5, "center_y":.75}
+            text: "Player name:"
+            font_size: 35
+        TextInput:
+            id: input
+            pos_hint: {"center_x":.5, "center_y":.65}
+            font_size: 35
+            size_hint: 0.5, .1
+            multiline: False
+        Label:
+            id: error
+            pos_hint: {"center_x":.5, "center_y":.4}
+            text: ""
+            font_size: 35
+            color: 1.0, 0.0, 0.0
+        Button:
+            text:"Start Game"
+            size_hint: .5, .1
+            font_size: 35
+            pos_hint: {"center_x": .5, "center_y": .5}
+            on_press:
+                if input.text != '' : root.fileCheck()
+                else: error.text = "Please don't leave name empty"
+            on_press:
+                if input.text != '' : root.manager.current="Game"
+<GameScreen>:
+    name:"Game"
