@@ -31,9 +31,12 @@
             font_size: 35
             pos_hint: {"center_x": .5, "center_y": .5}
             on_press:
-                if input.text != '' : root.fileCheck()
+                if input.text != '' : root.fileCheck
                 else: error.text = "Please don't leave name empty"
             on_press:
                 if input.text != '' : root.manager.current="Game"
+            on_press:
+                root.manager.get_screen("Game").initiate()
 <GameScreen>:
     name:"Game"
+
