@@ -7,13 +7,13 @@
     - [Kivy telepytéséhez link - hivatalos oldalról](https://kivy.org/doc/stable/gettingstarted/installation.html)
 
   - A játék menete:
-    - Program indításakor összekeveri a kártyákat és lefordítva jeleníti meg őket sorszámozva.
-    - 2 darab kártyát kiválaszt.
+      - Program indításakor összekeveri a kártyákat és lefordítva jeleníti meg őket sorszámozva.
+      - 2 darab kártyát kiválaszt.
       - Amikor egy harmadik kártyára kattint:
-        - Konzolon értesít, hogy mi volt a két kártya amit kiválasztott (a sorszámuk apalján, ahogyan a képernyőn látszik).
-        - Konzolon értesít, hogy ha a kát kártya megegyezik-e - ha nem egyeznek meg akkor értesít róla, és visszafordítja a kártyákat.
-        - Kiírja, hogy jelenleg hányszor lettek fordítva kártyák, és abból mennyi volt sikeres.
-        - Ha az utolsó 2 kártya előtt meg van egy pár, akkor értesíteni fog, hogy már csak az utolsó lefordított kártyát kell felfordítani, és akkor megynyerte a játékot.
+      	- Konzolon értesít, hogy mi volt a két kártya amit kiválasztott (a sorszámuk apalján, ahogyan a képernyőn látszik).
+       	- Konzolon értesít, hogy ha a kát kártya megegyezik-e - ha nem egyeznek meg akkor értesít róla, és visszafordítja a kártyákat.
+      	- Kiírja, hogy jelenleg hányszor lettek fordítva kártyák, és abból mennyi volt sikeres.
+      	- Ha az utolsó 2 kártya előtt meg van egy pár, akkor értesíteni fog, hogy már csak az utolsó lefordított kártyát kell felfordítani, és akkor megynyerte a játékot.
 
 ## ENG: Programming enviroments practice project (Python Kivy) - EKCU IF CS Bsc. - NK-OOHQ3E Gábor Bagoly - 2021/22 autumn semester
 ### Description of the project:
